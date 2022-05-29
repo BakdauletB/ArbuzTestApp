@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">ArbuzTestApp</string>
+
+    <string name="phone_number">Номер телефона</string>
+    <string name="address">Адрес</string>
+    <string name="to_pay">Оплатить</string>
+    <string name="apply">Применить</string>
+    <string name="delivery_date">Время доставки</string>
+
+    <string name="status_thwarted">Сорван</string>
+    <string name="status_ripe">Спелый</string>
+    <string name="status_unripe">Не спелый</string>
+    <string name="basket">Корзина</string>
+</resources>

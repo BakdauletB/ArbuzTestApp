@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomSheetDialogTheme" parent="Theme.Design.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/BottomSheetStyle</item>
+        <item name="android:windowIsFloating">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowSoftInputMode">adjustResize</item>
+        <item name="android:windowEnterAnimation">@anim/my_slide_up</item>
+        <item name="android:windowExitAnimation">@anim/my_slide_down</item>
+    </style>
+
+    <style name="BottomSheetStyle" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@android:color/transparent</item>
+        <item name="behavior_peekHeight">600dp</item>
+    </style>
+    <style name="LinearLayoutDetail" >
+        <item name="android:gravity">center</item>
+        <item name="android:padding">10dp</item>
+        <item name="android:layout_marginTop">15dp</item>
+        <item name="android:weightSum">1</item>
+        <item name="android:orientation">horizontal</item>
+    </style>
+    <style name="TextViewWeight" parent="Widget.MaterialComponents.TextView">
+            <item name="android:textColor">@color/colorBlack</item>
+            <item name="android:textStyle">bold</item>
+            <item name="android:textSize">20sp</item>
+    </style>
+    <style name="TextViewAmount" parent="Widget.MaterialComponents.TextView">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textSize">20sp</item>
+    </style>
+    <style name="WhiteEditText" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">13sp</item>
+        <item name="android:background">@drawable/white_background_for_edit_text</item>
+        <item name="android:textColor">@color/header</item>
+        <item name="android:fontFamily">@font/sf_pro_semi_bold</item>
+        <item name="android:textColorHint">@color/hintSecond</item>
+    </style>
+</resources>
