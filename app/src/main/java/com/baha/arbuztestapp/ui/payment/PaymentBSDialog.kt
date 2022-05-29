@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import android.widget.Toast
 import com.baha.arbuztestapp.R
 import com.baha.arbuztestapp.databinding.BsDialogPaymentBinding
+import com.baha.arbuztestapp.support.extensions.enablePhoneMask
 import com.baha.arbuztestapp.support.extensions.formatDate
 import com.google.android.material.bottomsheet.BottomSheetDialogFragment
 import java.util.*
@@ -44,7 +45,9 @@ class PaymentBSDialog : BottomSheetDialogFragment() {
                 Toast.makeText(requireContext(), "Заказ успешно создан", Toast.LENGTH_SHORT).show()
                 dismiss()
             }
+
         }
+        binding.phoneEditText.enablePhoneMask()
         initDeliveryDate()
     }
 
